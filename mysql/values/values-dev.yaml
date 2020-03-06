@@ -1,0 +1,19 @@
+mysql:
+
+  enabled: true
+
+  mysqlRootPassword: 1234
+
+  mysqlUser: bn_ghost
+
+  mysqlPassword: 123456
+
+  mysqlDatabase: bitnami_ghost
+
+  persistence:
+    enabled: true
+
+  service:
+    annotations: {}
+    type: ClusterIP
+    port: 3306

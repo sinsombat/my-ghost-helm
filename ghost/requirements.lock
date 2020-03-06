@@ -1,0 +1,6 @@
+dependencies:
+- name: ghost
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 9.1.11
+digest: sha256:fbdbcd0fec903895944e3af55fba125b8c4b2791786252c2504cb1228957b38b
+generated: 2020-03-06T10:27:58.292488235+07:00

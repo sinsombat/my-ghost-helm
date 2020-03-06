@@ -1,0 +1,25 @@
+ghost:
+
+  enabled: true
+
+  image:
+    tag: latest
+
+  ghostUsername: sinsombat.j@gmail.com
+  ghostPassword: sinsombat
+  ghostEmail: sinsombat.j@gmail.com
+
+  persistence:
+    enabled: true
+
+  mariadb:
+    enabled: false
+  
+  externalDatabase:
+    host: mysql
+    password: 123456
+  
+  service:
+    annotations: {}
+    type: ClusterIP
+    port: 80
