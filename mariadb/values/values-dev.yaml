@@ -1,0 +1,14 @@
+mariadb:
+
+  enabled: true
+
+  rootUser:
+    password: '1234567890'
+
+  db:
+    name: bitnami_ghost
+    user: bn_ghost
+    password: '123456'
+
+  persistence:
+    enabled: true

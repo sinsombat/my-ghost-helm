@@ -5,21 +5,21 @@ ghost:
   image:
     tag: latest
 
-  ghostUsername: sinsombat.j@gmail.com
-  ghostPassword: sinsombat
-  ghostEmail: sinsombat.j@gmail.com
+  ghostPath: 'ghost-path'
 
-  persistence:
-    enabled: true
+  ghostUsername: 'sinsombat.j@gmail.com'
+  ghostPassword: '1234567890'
+  ghostEmail: 'sinsombat.j@gmail.com'
 
-  mariadb:
-    enabled: false
-  
-  externalDatabase:
-    host: mysql
-    password: 123456
-  
   service:
     annotations: {}
     type: ClusterIP
     port: 80
+
+  externalDatabase: 
+    host: mariadb
+    password: '123456'
+
+
+  mariadb:
+    enabled: false
